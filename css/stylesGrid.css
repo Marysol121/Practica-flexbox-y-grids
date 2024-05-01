@@ -1,0 +1,54 @@
+* {
+    margin: 5px;
+}
+
+.contenedor {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    height: 100vh;
+}
+
+header {
+    background-color: yellow;
+    padding: 5px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+nav {
+    background-color: yellow;
+    padding: 5px;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.top-section {
+    background-color: yellow;
+    padding: 5px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.bootom-section {
+    background-color: yellow;
+    padding: 5px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+aside {
+    background-color: yellow;
+    padding: 5px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+footer {
+    background-color: yellow;
+    padding: 5px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
